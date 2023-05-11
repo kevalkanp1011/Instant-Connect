@@ -65,5 +65,8 @@ dependencies {
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
 
     implementation 'com.google.firebase:firebase-database-ktx:20.2.1'
+    implementation "io.getstream:stream-webrtc-android:1.0.0"
+    implementation("io.getstream:stream-log-android:1.1.4")
+    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.2'
 
 }
